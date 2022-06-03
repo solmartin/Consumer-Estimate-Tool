@@ -112,6 +112,7 @@ def generateInPaintingEstimate(consumer):
     # TODO: Include Material Cost
     # TODO: Update estimate based on fine details (as seen in document)
 
+    total = 0 # TODO: Fill in proper subtotal
     estimate = [0.85*total, 100 + 1.15*total]
     raise NotImplementedError
     
